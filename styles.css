@@ -1,8 +1,11 @@
 /* card setup */
 .center {
     margin: auto;
-    width: 75%;
-    background-color: aquamarine;
+    width: 300px;
+    height: 400px;
+    background-color: #ffd1dc;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 
 .display-topleft {
@@ -10,10 +13,11 @@
     left: 0;
     top: 0;
     background-color: black;
+    color: white;
 }
 
 .padding {
-    padding:8px 16px!important
+    padding:8px;
 }
 
 /* flipping animation */
@@ -57,7 +61,7 @@
   
   /* Style the back side */
   .flip-box-back {
-    background-color: rgb(110, 160, 128);
+    background-color: #a0bf65;
     color: white;
     transform: rotateY(180deg);
   }
