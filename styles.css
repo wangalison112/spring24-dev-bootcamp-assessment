@@ -8,6 +8,7 @@
     display: block;
 }
 
+/* Name display */
 .display-topleft {
     position: absolute;
     left: 0;
@@ -16,11 +17,12 @@
     color: white;
 }
 
+/* Text padding */
 .padding {
     padding:8px;
 }
 
-/* flipping animation */
+/* Flipping animation */
 .flip-box {
     background-color: transparent;
     width: 300px;
@@ -29,7 +31,7 @@
     perspective: 1000px;
   }
   
-  /* This container is needed to position the front and back side */
+  /* Position the front and back side */
   .flip-box-inner {
     position: relative;
     width: 100%;
@@ -39,12 +41,12 @@
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Do a horizontal flip when you move the mouse over the flip box container */
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
+  /* Position front and back side */
   .flip-box-front, .flip-box-back {
     position: absolute;
     width: 100%;
@@ -53,13 +55,13 @@
     backface-visibility: hidden;
   }
   
-  /* Style the front side (fallback if image is missing) */
+  /* Font side */
   .flip-box-front {
     background-color: #bbb;
     color: black;
   }
   
-  /* Style the back side */
+  /* Back side */
   .flip-box-back {
     background-color: #a0bf65;
     color: white;
